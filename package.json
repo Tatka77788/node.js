@@ -1,0 +1,29 @@
+{
+  "name": "03-mongodb",
+  "version": "0.0.1",
+  "description": "mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node server.js",
+    "predev": "fuser -k 3000/tcp && echo 'Terminated' || echo 'Nothing was running on the PORT'",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Tatiana Trishkyna",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.9.24",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
