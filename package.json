@@ -1,0 +1,30 @@
+{
+  "name": "04-auth",
+  "version": "0.0.1",
+  "description": "04-auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "04-auth"
+  ],
+  "author": "Tatiana Trishkyna",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
