@@ -1,0 +1,34 @@
+{
+  "name": "05-images",
+  "version": "0.0.1",
+  "description": "05-imeges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "imeges"
+  ],
+  "author": "Tatiana Trishkyna",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.1.2",
+    "@hapi/joi": "^17.1.1",
+    "avatar-builder": "^1.0.1",
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}
